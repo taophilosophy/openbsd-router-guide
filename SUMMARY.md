@@ -5,4 +5,4 @@
 
 ## OpenBSD 路由器指南
 
-*[OpenBSD 路由器指南](openbsd-router-guide.md)
+* [OpenBSD 路由器指南](openbsd-router-guide.md)
