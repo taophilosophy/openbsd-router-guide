@@ -1,9 +1,12 @@
 # OpenBSD Router Guide
 
-This is the public GitHub repository for the [OpenBSD router guide](https://openbsdrouterguide.net/).
+该项目是对 [OpenBSD router guide](https://openbsdrouterguide.net/) 的中文翻译。
 
-## How to Contribute
+根据 CC 4.0 协议进行翻译。
 
- * Clone and edit
- * Submit pull request for consideration
+原作者信息：
+
+- 原作者：Unix Digest，
+- 项目地址：<https://github.com/unixdigest/openbsd-router-guide>
+- 官方网站：<https://openbsdrouterguide.net/>
 
