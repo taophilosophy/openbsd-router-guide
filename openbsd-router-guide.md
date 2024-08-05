@@ -13,57 +13,6 @@
 
 我们将使用一个设置，在此设置中，路由器将局域网（LAN）分成三个独立的网络：一个用于家里的成年人，一个用于孩子，还有一个用于公共服务器（DMZ），例如私有网页服务器或邮件服务器。我们还将看看如何使用 DNS 屏蔽广告、色情和其他互联网网站。OpenBSD 路由器还可以用于小型到中型办公室。
 
- 目录
-
-* [本指南中使用的排版约定](https://openbsdrouterguide.net/#typographical-conventions)
-* [ 为什么需要防火墙？](https://openbsdrouterguide.net/#why-a-firewall)
-* [ 硬件](https://openbsdrouterguide.net/#the-hardware)
-* [ 为什么选择 OpenBSD？](https://openbsdrouterguide.net/#why-openbsd)
-* [ 网络](https://openbsdrouterguide.net/#the-network)
-
-  * [设置网络](https://openbsdrouterguide.net/#setting-up-the-network)
-* [DHCP](https://openbsdrouterguide.net/#dhcp)
-* [PF - 一个数据包过滤防火墙](https://openbsdrouterguide.net/#a-packet-filtering-firewall)
-
-  * [ PF 设置](https://openbsdrouterguide.net/#pf-setup)
-  * [ 澄清](https://openbsdrouterguide.net/#clarifications)
-  * [域名或主机名解析](https://openbsdrouterguide.net/#pf-domain-name-resolution)
-  * [ 规则集](https://openbsdrouterguide.net/#the-ruleset)
-
-    * [子代密码列表](https://openbsdrouterguide.net/#passlist)
-
-      * [使用持久表](https://openbsdrouterguide.net/#persistent-table)
-  * [ 加载规则](https://openbsdrouterguide.net/#loading-ruleset)
-  * [ 记录和监控](https://openbsdrouterguide.net/#logging)
-  * [不要尝试阻止 DHCP](https://openbsdrouterguide.net/#pf-dhcp)
-* [DNS](https://openbsdrouterguide.net/#domain-name-service)
-
-  * [我向您介绍，Unbound](https://openbsdrouterguide.net/#unbound)
-  * [ 使用 DNS 阻止](https://openbsdrouterguide.net/#blocking-with-dns)
-
-    * [ NXDOMAIN 与重定向](https://openbsdrouterguide.net/#nxdomain)
-  * [DNS over HTTPS（DoH）的问题](https://openbsdrouterguide.net/#doh)
-  * [ 设置 Unbound](https://openbsdrouterguide.net/#unbound-setup)
-
-    * [ 基本设置](https://openbsdrouterguide.net/#basic-settings)
-    * [让我们屏蔽一些域名！](https://openbsdrouterguide.net/#lets-block-some-domains)
-  * [ DNS 安全](https://openbsdrouterguide.net/#dns-security)
-
-    * [ DNS 劫持](https://openbsdrouterguide.net/#dns-hijacking)
-
-      * [DNS 劫持防范](https://openbsdrouterguide.net/#dns-hijacking-prevention)
-    * [ DNS 欺骗](https://openbsdrouterguide.net/#dns-spoofing)
-
-      * [ DNS 欺骗预防](https://openbsdrouterguide.net/#dns-spoofing-prevention)
-* [ 附录](https://openbsdrouterguide.net/#appendix)
-
-  * [检查 DNS 超过 HTTPS（DoH）](https://openbsdrouterguide.net/#inspecting-doh)
-  * [阻止 DNS 超过 HTTPS（DoH）](https://openbsdrouterguide.net/#blocking-doh)
-  * [将域名选项添加到 DHCP 并使用 FQDN](https://openbsdrouterguide.net/#dhcp-domain)
-  * [ 添加 pf-badhost](https://openbsdrouterguide.net/#pf-badhost)
-  * [ 推荐阅读](https://openbsdrouterguide.net/#recommended-reading)
-  * [ 相关链接](https://openbsdrouterguide.net/#relevant-links)
-  * [如何为指南贡献？](https://openbsdrouterguide.net/#how-to-contribute)
 
 ## 本指南使用的排版约定
 
