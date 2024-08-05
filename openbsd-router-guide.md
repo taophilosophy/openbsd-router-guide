@@ -1,6 +1,6 @@
 # OpenBSD 路由器指南
 
-**网络分段防火墙，DHCP，支持 Unbound DNS，域名阻断等等** 
+**涉及网络分段防火墙，DHCP，支持 Unbound DNS，域名阻断等等** 
 
 - OpenBSD：7.5
 - 发布日期：2020-11-05
