@@ -1,4 +1,4 @@
-# OpenBSD 路由器指南
+# OpenBSD 路由器指南翻译项目
 
 该项目是对 [OpenBSD router guide](https://openbsdrouterguide.net/) 的中文翻译。
 
